@@ -73,45 +73,47 @@
     </section>
   </section>
   <section class="rightColumn">
-    <section class="flexSection lookBlock">
-      <label class="blockLabel">Look</label>
-      <ul>
-        <li>Male, Female, Other-Gendered, Fluid, NonGendered</li>
-        <li>Dark Hair, Light Hair, Ridged, Bald, Covered,
-          None
-        </li>
-        <li>Dark Skin, Light Skin, Monochromatic Skin,
-          Pale Skin, Multi-colored Skin, No Visible
-          skin, Fur, None, Other
-        </li>
-        <li>Smooth Forehead, Ridged Forehead, Indented
-          Forehead, Antennae, Wrinkled Head, Bulged,
-          None, Other
-        </li>
-        <li>Rounded Ears, Pointed Ears, Inset Ears,
-          Enlarged Ears, No Ears, Other
-        </li>
-        <li>Red Uniform, Blue Uniform, Gold Uniform,
-          Other Uniform, Unofficial Clothing
-        </li>
-      </ul>
-    </section>
-    <section class="flexSection specialMovesBlock">
-      <h2>Special Moves</h2>
-      <ng-container *ngIf="hasRequiredMoves">
-        <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
-          *ngIf="requiredMovesPlural">these moves</span>:
+    <div class="flexContainer">
+      <section class="flexSection lookBlock">
+        <label class="blockLabel">Look</label>
+        <ul>
+          <li>Male, Female, Other-Gendered, Fluid, NonGendered</li>
+          <li>Dark Hair, Light Hair, Ridged, Bald, Covered,
+            None
+          </li>
+          <li>Dark Skin, Light Skin, Monochromatic Skin,
+            Pale Skin, Multi-colored Skin, No Visible
+            skin, Fur, None, Other
+          </li>
+          <li>Smooth Forehead, Ridged Forehead, Indented
+            Forehead, Antennae, Wrinkled Head, Bulged,
+            None, Other
+          </li>
+          <li>Rounded Ears, Pointed Ears, Inset Ears,
+            Enlarged Ears, No Ears, Other
+          </li>
+          <li>Red Uniform, Blue Uniform, Gold Uniform,
+            Other Uniform, Unofficial Clothing
+          </li>
+        </ul>
+      </section>
+      <section class="flexSection specialMovesBlock">
+        <h2>Special Moves</h2>
+        <ng-container *ngIf="hasRequiredMoves">
+          <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
+            *ngIf="requiredMovesPlural">these moves</span>:
+          </div>
+          <st-move *ngFor="let requiredMove of data.requiredMoves" [move]="requiredMove" [selected]="true"></st-move>
+        </ng-container>
+        <div *ngIf="hasRequiredMoves" class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}}
+          more:
         </div>
-        <st-move *ngFor="let requiredMove of data.requiredMoves" [move]="requiredMove" [selected]="true"></st-move>
-      </ng-container>
-      <div *ngIf="hasRequiredMoves" class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}}
-        more:
-      </div>
-      <div *ngIf="!hasRequiredMoves" class="moveInstructions">Choose {{data.numOptionalMoves | numberToWords}}:</div>
-      <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
-    </section>
-    <section class="flexSection otherMovesBlock">
-      <h2>Other moves</h2>
-    </section>
+        <div *ngIf="!hasRequiredMoves" class="moveInstructions">Choose {{data.numOptionalMoves | numberToWords}}:</div>
+        <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
+      </section>
+      <section class="flexSection otherMovesBlock">
+        <h2>Other moves / notes</h2>
+      </section>
+    </div>
   </section>
 </main>

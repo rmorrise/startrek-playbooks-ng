@@ -37,7 +37,7 @@ section.leftColumn {
 
 section.rightColumn {
   display: table-cell;
-  height: 5.5in;
+  height: 9.53in;
 }
 
 section.classBlock {
@@ -152,7 +152,7 @@ section.xpBlock input[type=checkbox] {
 section.rightColumn div.flexContainer {
   display: flex;
   flex-direction: column;
-  height: 7.1in;
+  height: 9.53in;
 }
 
 section.lookBlock {
