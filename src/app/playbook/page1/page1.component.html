@@ -63,15 +63,17 @@
     </section>
     <section class="harmBlock">
       <label>Harm:</label>
-      <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+      <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input
+      type="checkbox">
     </section>
     <section class="xpBlock">
       <label>XP:</label>
-      <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+      <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input
+      type="checkbox"><input type="checkbox"><input type="checkbox">
     </section>
   </section>
   <section class="rightColumn">
-    <section class="lookBlock">
+    <section class="flexSection lookBlock">
       <label class="blockLabel">Look</label>
       <ul>
         <li>Male, Female, Other-Gendered, Fluid, NonGendered</li>
@@ -94,7 +96,7 @@
         </li>
       </ul>
     </section>
-    <section class="specialMovesBlock">
+    <section class="flexSection specialMovesBlock">
       <h2>Special Moves</h2>
       <ng-container *ngIf="hasRequiredMoves">
         <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
@@ -102,12 +104,13 @@
         </div>
         <st-move *ngFor="let requiredMove of data.requiredMoves" [move]="requiredMove" [selected]="true"></st-move>
       </ng-container>
-      <div *ngIf="hasRequiredMoves" class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}} more:</div>
+      <div *ngIf="hasRequiredMoves" class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}}
+        more:
+      </div>
       <div *ngIf="!hasRequiredMoves" class="moveInstructions">Choose {{data.numOptionalMoves | numberToWords}}:</div>
       <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
     </section>
-
-    <section class="otherMovesBlock">
+    <section class="flexSection otherMovesBlock">
       <h2>Other moves</h2>
     </section>
   </section>

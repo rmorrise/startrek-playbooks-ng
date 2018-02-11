@@ -173,7 +173,7 @@ section.rightColumn div.flexContainer {
   height: 7.1in;
 }
 
-section.rightColumn > section {
+section.rightColumn section.flexSection {
   border: thin solid black;
   padding: 0.5rem;
 }
