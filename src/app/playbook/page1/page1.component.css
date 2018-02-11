@@ -58,8 +58,6 @@ section.lookBlock ul {
   font-size: x-small;
 }
 
-
-
 /**
  * Stats section
  */
@@ -123,6 +121,23 @@ section.statBlock label {
   left: 0.2rem;
   width: 4rem;
   font-weight: bolder;
+}
+
+/**
+ * Below stats
+ */
+section.harmBlock {
+  padding: 0.5rem;
+}
+
+section.harmBlock label {
+  display: block;
+  font-weight: bold;
+}
+
+section.harmBlock input[type=checkbox] {
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 /**
