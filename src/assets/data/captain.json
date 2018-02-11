@@ -1,0 +1,37 @@
+{
+  "playbookName": "The Captain",
+  "firstMove":     {
+    "moveName": "Commission",
+    "description": "Add two refit improvements and two mission improvements to your starship."
+  },
+  "optionalMoves": [
+    {
+      "moveName": "Promoted from Within",
+      "description": "Choose another unplayed playbook and take a move from it."
+    },
+    {
+      "moveName": "Experienced",
+      "description": "Add +1 to War, Peace, Duty, or Explore (maximum +2)"
+    },
+    {
+      "moveName": "Battle-Tested",
+      "description": "When you Issue Orders to Open Fire, you may add +1 Harm or +1 Shields instead of Advantage Forward."
+    },
+    {
+      "moveName": "First Contact",
+      "description": "When you Issue Orders to Open a Channel, hold 1 yourself, no matter the result of the Open a Channel roll."
+    },
+    {
+      "moveName": "On A Mission of Exploration",
+      "description": "When you Issue Orders to Perform a Scan, hold 1 yourself, no matter the result of the Perform a Scan roll."
+    },
+    {
+      "moveName": "Epic Speech",
+      "description": "When you take a minute to give a rousing speech to shaken crewmembers, roll +Duty. On a 10+, the crew you hear your speech take advantage forward to Go Boldly until the current situation ends. On a 7-9, one crew takes advantage forward to Go Boldly. In both cases, cancel any Disadvantage to Issue Orders. On a 6-, the speech does not have the effect you intended, or is interrupted at an awkward time."
+    },
+    {
+      "moveName": "You Have The Bridge",
+      "description": "When you delegate command of the bridge to the senior officer in charge in order to go deal with a problem yourself, that officer has advantage forward on their next Issue Orders roll."
+    }
+  ]
+}
