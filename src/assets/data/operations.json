@@ -1,0 +1,64 @@
+{
+  "playbookName": "The Operations Officer",
+  "requiredMoves": null,
+  "numOptionalMoves": 3,
+  "optionalMoves": [
+    {
+      "moveName": "Transporter Operator",
+      "description": "When operating the transporter under adverse conditions, roll +Duty. On a 10+, choose 2. On a 7-9, choose 1.",
+      "holds": [
+        "The transport is extremely precise.",
+        "The transport is faster than normal.",
+        "The transport can cut through interference."
+      ]
+    },
+    {
+      "moveName": "Communications Specialist",
+      "description": "When you Open a Channel, you always Hold at least 1, even on a miss."
+    },
+    {
+      "moveName": "Precise Scanner",
+      "description": "When you Perform a Scan, add one extra Hold on a hit."
+    },
+    {
+      "moveName": "Long Range Scanner",
+      "description": "You may use the Perform a Scan when not in the same system as your target."
+    },
+    {
+      "moveName": "Run Diagnostics",
+      "description": "You may use moves related to offline systems as if it were not offline with Disadvantage Ongoing. On a miss, the system shuts down permanently until extensive repairs can be made."
+    },
+    {
+      "moveName": "Linguistics Expert",
+      "description": "You can communicate with any sentient creature, even if the translator systems are offline. If communications are offline, you can still communicate simple concepts through other means."
+    },
+    {
+      "moveName": "Set A Course",
+      "description": "When you need to warp to another location in a hurry, roll +Duty. On a 10+, choose 2. On a 7-9, choose 1.",
+      "holds": [
+        "The ship arrives quickly.",
+        "The ship doesn’t suffer extra stress from the trip.",
+        "The ship arrives in an extra advantageous position."
+      ]
+    },
+    {
+      "moveName": "Pilot Training",
+      "description": "When you actively pilot a ship into a more advantageous position, roll + Duty. On a 10+, hold 2. On a 7-9, hold 1.",
+      "hold": [
+        "You get into a better position to inflict damage. The next weapons hit inflicts +1 Harm.",
+        "You get into a better position to hit vulnerable systems. The next Open Fire is +1 Hold.",
+        "You get into a more defensible position. Take +1 Shields against the next hit.",
+        "You keep other enemies from reaching you.",
+        "You position yourself exactly where you want to in a tight spot."
+      ]
+    },
+    {
+      "moveName": "Flexible",
+      "description": "Take +1 to any stat (maximum +3)"
+    },
+    {
+      "moveName": "Cross-Training",
+      "description": "Take a move from an unused playbook."
+    }
+  ]
+}

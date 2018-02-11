@@ -1,0 +1,38 @@
+{
+  "playbookName": "The Chief Medic",
+  "requiredMoves": [
+    {
+      "moveName": "Please State The Nature of the Medical Emergency",
+      "description": "When you attempt to treat a medical condition or injury, roll +Peace. On a 10+, choose three. On a 7-9, choose two.",
+      "holds": [
+        "You are able to repair injury and remove 1 Harm.",
+        "You are able to correct a temporary debility.",
+        "You make progress or discover something new about an ongoing medical issue.",
+        "The procedure is without any complications."
+      ]
+    }
+  ],
+  "numOptionalMoves": 2,
+  "optionalMoves": [
+    {
+      "moveName": "Doctor Coming Through",
+      "description": "You may roll +Peace instead of +Rank when using Issue Orders, regardless of Rank or other circumstances, if the orders relate to a medical situation."
+    },
+    {
+      "moveName": "Detailed Medical Imagery",
+      "description": "When you Perform a Scan on a living creature, on a hit, you hold this question for free: “What is interesting about this creature’s biology?”"
+    },
+    {
+      "moveName": "Cutting Edge Medical Research",
+      "description": "You have +1 Explore (maximum +3)"
+    },
+    {
+      "moveName": "Hippocratic Oath",
+      "description": "When you Open Fire against other creature by using a medical instrument, you may roll +Peace instead of +War. If you do, you may not choose to inflict terrible harm."
+    },
+    {
+      "moveName": "Ready for Command",
+      "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
+    }
+  ]
+}
