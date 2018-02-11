@@ -20,13 +20,7 @@ export class PlaybookComponent implements OnInit {
 
   ngOnInit() {
     this.$playbookData = this.route.paramMap.pipe(switchMap((params: ParamMap) => {
-      let file = params.get('file');
-      console.log(`file: ${file}`);
-      if (!file) {
-        file = 'captain'
-      }
-
-      return this.dataService.getPlaybookData(file)
+      return this.dataService.getPlaybookData(params.get('file'))
     }));
   }
 }
