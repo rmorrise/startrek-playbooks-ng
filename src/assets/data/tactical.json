@@ -9,27 +9,44 @@
   "numOptionalMoves": 2,
   "optionalMoves": [
     {
-      "moveName": "Genius",
-      "description": "Increase your Explore by +1 (to a maximum of +3)"
+      "moveName": "Scan That Vessel",
+      "description": "When you Perform a Scan against a ship, on a hit, you automatically get a free question: “What is the weakest part or system on this ship?”"
     },
     {
-      "moveName": "Logistics",
-      "description": "When you Issue Orders for an engineering problem, roll +Explore instead of +Rank."
+      "moveName": "Look Out, Sir!",
+      "description": "When a member of your away team is attacked, roll +Duty. On a 10+, choose 2. On a 7-9, choose 1. On a 6-, you both suffer the original attack.",
+      "holds": [
+        "You redirect the attack to yourself.",
+        "The attack deals less Harm.",
+        "You get into advantageous position against the attacker, take Advantage Forward for your next move against them."
+      ]
     },
     {
-      "moveName": "Miracle Worker",
-      "description": "When you Go Boldly involving an engineering task, you may use +Explore instead of +Duty. On a 10+, the task is done in record time."
+      "moveName": "Ceremonial Weapon",
+      "description": "When performing an Open Fire move with a handheld weapon, inflict +1 Harm and take -1 Harm, but you may not keep yourself out of harm’s way."
     },
     {
-      "moveName": "I'm Giving Her All She's Got!",
-      "description": "You may use a system as though it were not offline with Disadvantage Ongoing. On a miss, the system shuts down permanently until extensive repairs can be completed."
+      "moveName": "Redundant Targeting Systems",
+      "description": "When you Open Fire, you always at least Hold 1, even on a miss."
     },
     {
-      "moveName": "Inventory",
-      "description": "You are always working on the next big thing that will make the ship/crew safer/stronger/faster/invisible or whatever. Describe the invention to the GM.\nAt the beginning of each session, roll +Duty. On 10+, hold 2+Explore. On 7-9, hold +Explore. Spend your hold as part of another roll to make a breakthrough on your project and mark ship XP. When the ship advances, your invention is ready to be installed by engineering personnel.\nOn a 6-, your work suffers a serious setback that must be dealt with during the mission or lose all progress so far."
+      "moveName": "Security Detail",
+      "description": "You have a specially trained security squad that counts as your own squad (see AW’s mob rules)."
     },
     {
-      "moveName": "Ready For Command",
+      "moveName": "Life and Death Situations",
+      "description": "When you Issue Orders in a combat situation, roll +War instead of +Rank."
+    },
+    {
+      "moveName": "Full Weapons Spread",
+      "description": "When you Open Fire, you may take Disadvantage to fire multiple weapon systems at once."
+    },
+    {
+      "moveName": "Wartime Command",
+      "description": "You get +1 War (+3 maximum.)"
+    },
+    {
+      "moveName": "Ready for Command",
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
   ]
