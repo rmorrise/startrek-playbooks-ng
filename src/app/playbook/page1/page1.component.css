@@ -140,6 +140,20 @@ section.harmBlock input[type=checkbox] {
   height: 1.6rem;
 }
 
+section.xpBlock {
+  padding: 0.5rem;
+}
+
+section.xpBlock label {
+  display: block;
+  font-weight: bold;
+}
+
+section.xpBlock input[type=checkbox] {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 /**
  * Moves section (right)
  */
