@@ -1,0 +1,40 @@
+{
+  "playbookName": "The XO",
+  "requiredMoves": [
+    {
+      "moveName": "Red Alert!",
+      "description": "When you enter into a dangerous situation, roll +Duty. On a 10+, hold 2. On 7-9, hold 1. On a miss, the danger has the drop on you.",
+      "holds": [
+        "You were well-prepared for this mission and have access to a useful piece of equipment or upgrade.",
+        "You take evasive maneuvers. The first harm to your team or the ship is 1 less.",
+        "You were ready to fight. On the first Open Fire, on a hit, give it one extra hold."
+      ]
+    }
+  ],
+  "optionalMoves": [
+    {
+      "moveName": "Make It So",
+      "description": "When you roll a hit with Go Boldly, take Advantage Forward to your next roll."
+    },
+    {
+      "moveName": "Escape Plan",
+      "description": "When attempting to get the ship out of a dangerous situation, roll +Duty. On a 10+, you’re gone. On a 7-9, you can go or stay, but it’ll cost you (ship damage, system offline, leave something behind, take something with you)."
+    },
+    {
+      "moveName": "Attack Pattern Alpha",
+      "description": "When directing a ship in combat, use +Rank instead of +War to Open Fire."
+    },
+    {
+      "moveName": "Take An Away Team",
+      "description": "When leading an away team, the first member of the crew to roll Go Boldly can use your Duty instead of their own."
+    },
+    {
+      "moveName": "Ready For Command",
+      "description": "Take +1 Rank (maximum +3)."
+    },
+    {
+      "moveName": "A Lover On Every Planet",
+      "description": "When on an away mission, roll +Rank. On a 10+, one of the inhabitants becomes infatuated with you. On a 7-9, someone with history with you is entangled with the away mission but might also prove useful. On a miss, a past entanglement causes complications."
+    }
+  ]
+}
