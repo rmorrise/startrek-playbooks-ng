@@ -92,7 +92,7 @@
     <section class="specialMovesBlock">
       <h2>Special Moves</h2>
       <div class="moveInstructions">You have this move:</div>
-      <st-move [move]="data.firstMove"></st-move>
+      <st-move [move]="data.firstMove" [selected]="true"></st-move>
       <div class="moveInstructions">And choose one more:</div>
       <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
     </section>

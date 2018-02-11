@@ -1,6 +1,6 @@
 
 header.infoHeader {
-  width: 9in;
+  width: 10in;
   height: 0.4in;
 }
 
@@ -29,7 +29,7 @@ section.nameBlock label {
 
 section.nameBlock input {
   height: 2.4rem;
-  width: 8in;
+  width: 9in;
 }
 
 section.classBlock {
