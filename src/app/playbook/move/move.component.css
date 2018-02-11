@@ -1,0 +1,23 @@
+section.move {
+  position: relative;
+  margin-left: 2rem;
+}
+
+section.move input[type=checkbox] {
+  display: block;
+  position: absolute;
+  top: 0rem;
+  left: -2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+section.move h3 {
+  font-size: medium;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+section.move div.moveText {
+  font-size: small;
+}

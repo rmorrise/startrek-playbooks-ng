@@ -1,0 +1,147 @@
+
+header.infoHeader {
+  width: 9in;
+  height: 0.4in;
+}
+
+main {
+  display: table;
+  width: 10in;
+  height: 7in;
+  clear: both;
+}
+
+section.leftColumn {
+  display: table-cell;
+  width: 12rem;
+}
+
+section.rightColumn {
+  display: table-cell;
+}
+
+section.nameBlock label {
+  display: inline-block;
+  font-size: x-large;
+  min-width: 4rem;
+  height: 2rem;
+}
+
+section.nameBlock input {
+  height: 2.4rem;
+  width: 8in;
+}
+
+section.classBlock {
+  width: 10rem;
+}
+
+section.classBlock h1 {
+  font-size: large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.lookBlock {
+}
+
+section.lookBlock label {
+  float: left;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.lookBlock ul {
+  margin-left: 2rem;
+  font-size: x-small;
+}
+
+
+
+/**
+ * Stats section
+ */
+
+section.statsMovesBlock {
+  display: table;
+  max-width: 14rem;
+}
+
+section.statsMovesBlock header {
+  display: table-row;
+  position: relative;
+}
+
+section.statsMovesBlock header h1 {
+  display: table-cell;
+  padding-left: 0.5rem;
+  width: 4rem;
+}
+
+section.statBlock {
+  display: table-row;
+}
+
+section.statBlock div.stat {
+  display: table-cell;
+  position: relative;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+section.statBlock div.moves {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  padding-left: 0.5rem;
+  width: 7rem;
+  height: 4.5rem;
+  border: thin solid black;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+section.statBlock input[type=text] {
+  display: block;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+section.statBlock label {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  width: 4rem;
+  font-weight: bolder;
+}
+
+/**
+ * Moves section (right)
+ */
+
+section.rightColumn > section {
+  border: thin solid black;
+  padding: 0.5rem;
+}
+
+section.rightColumn section h2 {
+  font-size: large;
+}
+
+section.specialMovesBlock h2 {
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+div.moveInstructions {
+  margin-top: 0.5rem;
+  font-size: small;
+  font-style: italic;
+}

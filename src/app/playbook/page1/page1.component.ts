@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {PlaybookData} from '../model/playbookData';
 
 @Component({
   selector: 'st-page1',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.css']
 })
 export class Page1Component implements OnInit {
+  @Input('playbook-data') data: PlaybookData
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }

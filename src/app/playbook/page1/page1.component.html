@@ -1,3 +1,108 @@
-<p>
-  page1 works!
-</p>
+<header class="infoHeader">
+  <section class="nameBlock">
+    <label class="blockLabel">Name</label>
+    <input type="text">
+  </section>
+</header>
+<main class="mainBlock">
+  <section class="leftColumn">
+    <section class="classBlock">
+      <h1>{{data.playbookName}}</h1>
+    </section>
+    <section class="statsMovesBlock">
+      <header class="statsHeader">
+        <h1 class="stats blockLabel">Stats</h1>
+        <h1 class="moves blockLabel">Moves</h1>
+      </header>
+      <section class="statBlock">
+        <div class="stat">
+          <label>War</label>
+          <input type="text">
+        </div>
+        <div class="moves">
+          <div>Open Fire</div>
+        </div>
+      </section>
+      <section class="statBlock">
+        <div class="stat">
+          <label>Peace</label>
+          <input type="text">
+        </div>
+        <div class="moves">
+          <div>Open a Channel</div>
+        </div>
+      </section>
+      <section class="statBlock">
+        <div class="stat">
+          <label>Duty</label>
+          <input type="text">
+        </div>
+        <div class="moves">
+          <div>Go Boldly</div>
+        </div>
+      </section>
+      <section class="statBlock">
+        <div class="stat">
+          <label>Explore</label>
+          <input type="text">
+        </div>
+        <div class="moves">
+          <div>Spout Technobabble</div>
+          <div>Perform a Scan</div>
+        </div>
+      </section>
+      <section class="statBlock">
+        <div class="stat">
+          <label>Rank</label>
+          <input type="text">
+        </div>
+        <div class="moves">
+          <div>Issue Orders</div>
+        </div>
+      </section>
+    </section>
+    <section class="harmBlock">
+
+    </section>
+  </section>
+  <section class="rightColumn">
+    <section class="lookBlock">
+      <label class="blockLabel">Look</label>
+      <ul>
+        <li>Male, Female, Other-Gendered, Fluid, NonGendered</li>
+        <li>Dark Hair, Light Hair, Ridged, Bald, Covered,
+          None
+        </li>
+        <li>Dark Skin, Light Skin, Monochromatic Skin,
+          Pale Skin, Multi-colored Skin, No Visible
+          skin, Fur, None, Other
+        </li>
+        <li>Smooth Forehead, Ridged Forehead, Indented
+          Forehead, Antennae, Wrinkled Head, Bulged,
+          None, Other
+        </li>
+        <li>Rounded Ears, Pointed Ears, Inset Ears,
+          Enlarged Ears, No Ears, Other
+        </li>
+        <li>Red Uniform, Blue Uniform, Gold Uniform,
+          Other Uniform, Unofficial Clothing
+        </li>
+      </ul>
+    </section>
+    <section class="specialMovesBlock">
+      <h2>Special Moves</h2>
+      <div class="moveInstructions">You have this move:</div>
+      <st-move [move]="data.firstMove"></st-move>
+      <div class="moveInstructions">And choose one more:</div>
+      <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
+    </section>
+
+    <section class="otherMovesBlock">
+      <h2>Other moves</h2>
+    </section>
+
+    <section class="advancement">
+      <h2>Advancement</h2>
+    </section>
+  </section>
+</main>
