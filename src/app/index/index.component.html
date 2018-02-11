@@ -8,11 +8,7 @@
 </p>
 
 <ul>
-  <a href="playbooks/captain"><li>The Captain</li></a>
-  <a href="playbooks/xo"><li>The XO</li></a>
-  <a href="playbooks/engineer"><li>The Chief Engineer</li></a>
-  <!--<a href="playbooks/tactical"><li>Tactical Officer</li></a>-->
-  <!--<a href="playbooks/medic"><li>The Chief Medic</li></a>-->
-  <!--<a href="playbooks/operations"><li>Operations Officer</li></a>-->
-  <!--<a href="playbooks/science"><li>Science Officer</li></a>-->
+  <li *ngFor="let file of files">
+    <a href="playbooks/{{file.file}}">{{file.name}}</a>
+  </li>
 </ul>
