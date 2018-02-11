@@ -1,14 +1,14 @@
 
 header.infoHeader {
   display: block;
-  width: 10.2in;
+  width: 7.5in;
   height: 0.47in;
 }
 
 main {
   display: table;
-  width: 10in;
-  height: 7in;
+  width: 7.5in;
+  height: 9.53in;
 }
 
 /**
@@ -17,14 +17,14 @@ main {
 section.nameBlock label {
   display: inline-block;
   font-size: x-large;
-  min-width: 4rem;
+  width: 1in;
   height: 2rem;
 }
 
 section.nameBlock input {
   /*display: inline-block;*/
   height: 2.4rem;
-  width: 9in;
+  width: 6.4in;
 }
 
 /**
@@ -32,12 +32,12 @@ section.nameBlock input {
  */
 section.leftColumn {
   display: table-cell;
-  width: 12rem;
+  width: 2in;
 }
 
 section.rightColumn {
   display: table-cell;
-  height: 7.1in;
+  height: 5.5in;
 }
 
 section.classBlock {
