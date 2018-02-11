@@ -2,6 +2,6 @@ import {Move} from './move';
 
 export interface PlaybookData {
   playbookName: string
-  firstMove: Move
+  requiredMoves: Move[]
   optionalMoves: Move[]
 }

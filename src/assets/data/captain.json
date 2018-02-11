@@ -1,9 +1,11 @@
 {
   "playbookName": "The Captain",
-  "firstMove":     {
-    "moveName": "Commission",
-    "description": "Add two refit improvements and two mission improvements to your starship."
-  },
+  "requiredMoves": [
+    {
+      "moveName": "Commission",
+      "description": "Add two refit improvements and two mission improvements to your starship."
+    }
+  ],
   "optionalMoves": [
     {
       "moveName": "Promoted from Within",
