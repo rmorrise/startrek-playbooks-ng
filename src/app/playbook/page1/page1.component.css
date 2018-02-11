@@ -1,6 +1,7 @@
 
 header.infoHeader {
   display: block;
+  position: relative;
   width: 7.5in;
   height: 0.97in;
 }
@@ -8,7 +9,17 @@ header.infoHeader {
 main {
   display: table;
   width: 7.5in;
-  height: 9.53in;
+  height: 9.03in;
+}
+
+figure.logo {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  width: 1.3in;
+  height: 0.97in;
+  font-size: x-large;
+  margin: 0.1in;
 }
 
 /**
@@ -54,7 +65,7 @@ section.leftColumn {
 
 section.rightColumn {
   display: table-cell;
-  height: 9.53in;
+  height: 9.03in;
 }
 
 section.classBlock {
@@ -168,7 +179,7 @@ section.xpBlock input[type=checkbox] {
 section.rightColumn div.flexContainer {
   display: flex;
   flex-direction: column;
-  height: 9.53in;
+  height: 9.03in;
 }
 
 section.lookBlock {

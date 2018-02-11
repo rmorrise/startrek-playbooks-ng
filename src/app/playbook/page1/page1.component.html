@@ -27,6 +27,7 @@
       </div>
     </div>
   </section>
+  <figure class="logo">Strange New Worlds</figure>
 </header>
 <main class="mainBlock">
   <section class="leftColumn">
@@ -122,7 +123,7 @@
         </ul>
       </section>
       <section class="flexSection specialMovesBlock">
-        <h2>Special Moves</h2>
+        <h2>{{data.playbookName}}'s Moves</h2>
         <ng-container *ngIf="hasRequiredMoves">
           <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
             *ngIf="requiredMovesPlural">these moves</span>:
