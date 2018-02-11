@@ -2,7 +2,7 @@
 header.infoHeader {
   display: block;
   width: 7.5in;
-  height: 0.47in;
+  height: 0.97in;
 }
 
 main {
@@ -14,17 +14,34 @@ main {
 /**
  * Name header
  */
-section.nameBlock label {
+section.nameBlock span.introText {
   display: inline-block;
-  font-size: x-large;
-  width: 1in;
+  width: 5rem;
   height: 2rem;
+  text-align: right;
+  margin-right: 0.3rem;
+}
+
+section.nameBlock div.nameField {
+  display: inline-block;
+  position: relative;
+  line-height: 2rem;
 }
 
 section.nameBlock input {
-  /*display: inline-block;*/
-  height: 2.4rem;
-  width: 6.4in;
+  height: 2rem;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: thin solid black;
+}
+
+section.nameBlock input::placeholder {
+  color: #dddddd;
+}
+
+section.nameBlock input[name=name] {
+  width: 20rem;
 }
 
 /**
