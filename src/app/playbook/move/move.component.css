@@ -21,3 +21,8 @@ section.move h3 {
 section.move div.moveText {
   font-size: small;
 }
+
+section.move ul.moveHolds {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}

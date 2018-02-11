@@ -1,5 +1,10 @@
 <section class="move">
   <input type="checkbox" [checked]="selected">
   <h3 class="moveName">{{move.moveName}}</h3>
-  <div class="moveText">{{move.description}}</div>
+  <div class="moveText">
+    {{move.description}}
+    <ul class="moveHolds" *ngIf="move.holds">
+      <li *ngFor="let hold of move.holds">{{hold}}</li>
+    </ul>
+  </div>
 </section>
