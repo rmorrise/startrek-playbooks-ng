@@ -11,12 +11,8 @@ export class DataService {
 
   }
 
-  getCaptain(): Observable<PlaybookData> {
-    return this.getPlaybookData('assets/data/captain.json')
-  }
-
-  private getPlaybookData(url) {
-    return this.http.get(url).pipe(map((data: any) => {
+  getPlaybookData(file: string) {
+    return this.http.get(`assets/data/${file}.json`).pipe(map((data: any) => {
       return (<PlaybookData>data)
     }));
   }

@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {DataService} from './playbook/data.service';
 import {HttpClientModule} from '@angular/common/http';
 import {PlaybookModule} from './playbook/playbook.module';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {PlaybookModule} from './playbook/playbook.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    PlaybookModule
+    PlaybookModule,
+    AppRoutingModule
   ],
   providers: [
     DataService
