@@ -1,0 +1,57 @@
+{
+  "playbookName": "The Science Officer",
+  "requiredMoves": [
+    {
+      "moveName": "Scientific Inference",
+      "description": "When you Spout Technobabble, on 10+ hold 1. Spend your hold to ask a question from the Perform a Scan list."
+    },
+    {
+      "moveName": "Insightful Analysis",
+      "description": "When you Perform a Scan, you may give Advantage Forward to the first roll that follows up on an answer to one of your questions."
+    }
+  ],
+  "numOptionalMoves": 1,
+  "optionalMoves": [
+    {
+      "moveName": "Brilliant Detective",
+      "description": "When you lead an investigative Away Team, roll +Explore. On a 10+, hold 3. On 7-9, hold 1. Spend your hold to choose questions from the following list:",
+      "holds": [
+        "“Is the target still nearby?”",
+        "“To where did the target depart?”",
+        "“Is anything relevant missing or out of place?”",
+        "“Is there anything of unique scientific interest here?”"
+      ]
+    },
+    {
+      "moveName": "First in the Class",
+      "description": "+1 to Explore (Max +3)"
+    },
+    {
+      "moveName": "Eureka!",
+      "description": "When you are faced with a problem of near impossible difficulty, roll +Explore. You design a solution that can solve the problem just in time, but will be difficult to implement. On 10+, choose one from the following list; on 7-9, choose two.",
+      "holds": [
+        "It requires rare or difficult to obtain elements.",
+        "It requires putting many innocent lives in danger.",
+        "It will cause great harm to the ship or away team.",
+        "It will disable an important system on the ship until extensive repairs can be made.",
+        "It will only be temporarily or partially successful."
+      ]
+    },
+    {
+      "moveName": "Diligent Researcher",
+      "description": "You are always working on the next big thing that will make the ship/crew safer/stronger/faster/invisible or whatever. Describe the invention to the GM. \nAt the beginning of each session, roll +Duty. On 10+, hold 2+Explore. On 7-9, hold +Explore. Spend your hold as part of another roll to make a breakthrough on your project and mark ship XP. When the ship advances, your invention is ready to be installed by engineering personnel. \nOn a 6-, your work suffers a serious setback that must be dealt with during the mission or lose all progress so far."
+    },
+    {
+      "moveName": "Field Expert",
+      "description": "Choose a scientific field, like particle physics, warp fields, subspace, or quantum singularities. Whenever you encounter something within your field, the GM tells you one new insight about it."
+    },
+    {
+      "moveName": "Astrometric Reference",
+      "description": "When you arrive in a new system, you may consult the star charts. The GM will tell you an interesting fact about a nearby world."
+    },
+    {
+      "moveName": "Ready For Command",
+      "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
+    }
+  ]
+}

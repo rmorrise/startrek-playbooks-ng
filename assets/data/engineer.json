@@ -20,6 +20,7 @@
       ]
     }
   ],
+  "numOptionalMoves": 1,
   "optionalMoves": [
     {
       "moveName": "Genius",

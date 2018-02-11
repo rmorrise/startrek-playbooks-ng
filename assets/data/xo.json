@@ -11,6 +11,7 @@
       ]
     }
   ],
+  "numOptionalMoves": 1,
   "optionalMoves": [
     {
       "moveName": "Make It So",

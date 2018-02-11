@@ -1,0 +1,53 @@
+{
+  "playbookName": "Tactical Officer",
+  "requiredMoves": [
+    {
+      "moveName": "Armed and Ready",
+      "description": "While in an armed conflict your Open Fire roll, if it is a hit, is +1 Hold."
+    }
+  ],
+  "numOptionalMoves": 2,
+  "optionalMoves": [
+    {
+      "moveName": "Scan That Vessel",
+      "description": "When you Perform a Scan against a ship, on a hit, you automatically get a free question: “What is the weakest part or system on this ship?”"
+    },
+    {
+      "moveName": "Look Out, Sir!",
+      "description": "When a member of your away team is attacked, roll +Duty. On a 10+, choose 2. On a 7-9, choose 1. On a 6-, you both suffer the original attack.",
+      "holds": [
+        "You redirect the attack to yourself.",
+        "The attack deals less Harm.",
+        "You get into advantageous position against the attacker, take Advantage Forward for your next move against them."
+      ]
+    },
+    {
+      "moveName": "Ceremonial Weapon",
+      "description": "When performing an Open Fire move with a handheld weapon, inflict +1 Harm and take -1 Harm, but you may not keep yourself out of harm’s way."
+    },
+    {
+      "moveName": "Redundant Targeting Systems",
+      "description": "When you Open Fire, you always at least Hold 1, even on a miss."
+    },
+    {
+      "moveName": "Security Detail",
+      "description": "You have a specially trained security squad that counts as your own squad (see AW’s mob rules)."
+    },
+    {
+      "moveName": "Life and Death Situations",
+      "description": "When you Issue Orders in a combat situation, roll +War instead of +Rank."
+    },
+    {
+      "moveName": "Full Weapons Spread",
+      "description": "When you Open Fire, you may take Disadvantage to fire multiple weapon systems at once."
+    },
+    {
+      "moveName": "Wartime Command",
+      "description": "You get +1 War (+3 maximum.)"
+    },
+    {
+      "moveName": "Ready for Command",
+      "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
+    }
+  ]
+}

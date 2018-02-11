@@ -6,6 +6,7 @@
       "description": "Add two refit improvements and two mission improvements to your starship."
     }
   ],
+  "numOptionalMoves": 1,
   "optionalMoves": [
     {
       "moveName": "Promoted from Within",
