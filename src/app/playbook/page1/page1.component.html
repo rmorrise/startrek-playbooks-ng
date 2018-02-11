@@ -91,9 +91,14 @@
     </section>
     <section class="specialMovesBlock">
       <h2>Special Moves</h2>
-      <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span *ngIf="requiredMovesPlural">these moves</span>:</div>
-      <st-move *ngFor="let requiredMove of data.requiredMoves" [move]="requiredMove" [selected]="true"></st-move>
-      <div class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}} more:</div>
+      <ng-container *ngIf="hasRequiredMoves">
+        <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
+          *ngIf="requiredMovesPlural">these moves</span>:
+        </div>
+        <st-move *ngFor="let requiredMove of data.requiredMoves" [move]="requiredMove" [selected]="true"></st-move>
+      </ng-container>
+      <div *ngIf="hasRequiredMoves" class="moveInstructions">And choose {{data.numOptionalMoves | numberToWords}} more:</div>
+      <div *ngIf="!hasRequiredMoves" class="moveInstructions">Choose {{data.numOptionalMoves | numberToWords}}:</div>
       <st-move *ngFor="let move of data.optionalMoves" [move]="move"></st-move>
     </section>
 

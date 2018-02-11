@@ -14,6 +14,10 @@ export class Page1Component implements OnInit {
   ngOnInit() {
   }
 
+  get hasRequiredMoves(): boolean {
+    return this.data.requiredMoves && this.data.requiredMoves.length > 0
+  }
+
   get requiredMovesPlural(): boolean {
     return this.data.requiredMoves.length > 1
   }
