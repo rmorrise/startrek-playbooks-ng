@@ -2,39 +2,48 @@
   "playbookName": "The Chief Engineer",
   "requiredMoves": [
     {
-      "moveName": "Red Alert!",
-      "description": "When you enter into a dangerous situation, roll +Duty. On a 10+, hold 2. On 7-9, hold 1. On a miss, the danger has the drop on you.",
+      "moveName": "Reroute Power",
+      "description": "When you give a systems some extra juice, roll +Explore. On a 10+, choose a benefit: the next officer to use that system takes Advantage Forward, a weapon does +1 Harm, shields provide +1 Armor. On a 7-9, you give the bonus, and choose one:",
       "holds": [
-        "You were well-prepared for this mission and have access to a useful piece of equipment or upgrade.",
-        "You take evasive maneuvers. The first harm to your team or the ship is 1 less.",
-        "You were ready to fight. On the first Open Fire, on a hit, give it one extra hold."
+        "A different important system goes offline (chosen by the GM)",
+        "Power reserves are strained- Reroute Power rolls take Disadvantage Ongoing until they can be fully re-initialized",
+        "Feedback causes damage (ship takes 1 Harm)"
+      ]
+    },
+    {
+      "moveName": "Repair Orders",
+      "description": "When you attempt to repair an offline system or piece of the ship, roll +Explore. On a 10+, bring the system back online or repair 1 Harm. On a 7-9, also choose one:",
+      "holds": [
+        "The repair will take extra time",
+        "The repair will require exotic parts, jury-rigged adjustments, or another command officer’s time and expertise to complete",
+        "Two other systems (of your choice) will have to go offline in order to make the repairs"
       ]
     }
   ],
   "optionalMoves": [
     {
-      "moveName": "Make It So",
-      "description": "When you roll a hit with Go Boldly, take Advantage Forward to your next roll."
+      "moveName": "Genius",
+      "description": "Increase your Explore by +1 (to a maximum of +3)"
     },
     {
-      "moveName": "Escape Plan",
-      "description": "When attempting to get the ship out of a dangerous situation, roll +Duty. On a 10+, you’re gone. On a 7-9, you can go or stay, but it’ll cost you (ship damage, system offline, leave something behind, take something with you)."
+      "moveName": "Logistics",
+      "description": "When you Issue Orders for an engineering problem, roll +Explore instead of +Rank."
     },
     {
-      "moveName": "Attack Pattern Alpha",
-      "description": "When directing a ship in combat, use +Rank instead of +War to Open Fire."
+      "moveName": "Miracle Worker",
+      "description": "When you Go Boldly involving an engineering task, you may use +Explore instead of +Duty. On a 10+, the task is done in record time."
     },
     {
-      "moveName": "Take An Away Team",
-      "description": "When leading an away team, the first member of the crew to roll Go Boldly can use your Duty instead of their own."
+      "moveName": "I'm Giving Her All She's Got!",
+      "description": "You may use a system as though it were not offline with Disadvantage Ongoing. On a miss, the system shuts down permanently until extensive repairs can be completed."
+    },
+    {
+      "moveName": "Inventory",
+      "description": "You are always working on the next big thing that will make the ship/crew safer/stronger/faster/invisible or whatever. Describe the invention to the GM.\nAt the beginning of each session, roll +Duty. On 10+, hold 2+Explore. On 7-9, hold +Explore. Spend your hold as part of another roll to make a breakthrough on your project and mark ship XP. When the ship advances, your invention is ready to be installed by engineering personnel.\nOn a 6-, your work suffers a serious setback that must be dealt with during the mission or lose all progress so far."
     },
     {
       "moveName": "Ready For Command",
-      "description": "Take +1 Rank (maximum +3)."
-    },
-    {
-      "moveName": "A Lover On Every Planet",
-      "description": "When on an away mission, roll +Rank. On a 10+, one of the inhabitants becomes infatuated with you. On a 7-9, someone with history with you is entangled with the away mission but might also prove useful. On a miss, a past entanglement causes complications."
+      "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
   ]
 }
