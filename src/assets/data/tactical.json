@@ -1,26 +1,12 @@
 {
-  "playbookName": "The Chief Engineer",
+  "playbookName": "Tactical Officer",
   "requiredMoves": [
     {
-      "moveName": "Reroute Power",
-      "description": "When you give a systems some extra juice, roll +Explore. On a 10+, choose a benefit: the next officer to use that system takes Advantage Forward, a weapon does +1 Harm, shields provide +1 Armor. On a 7-9, you give the bonus, and choose one:",
-      "holds": [
-        "A different important system goes offline (chosen by the GM)",
-        "Power reserves are strained- Reroute Power rolls take Disadvantage Ongoing until they can be fully re-initialized",
-        "Feedback causes damage (ship takes 1 Harm)"
-      ]
-    },
-    {
-      "moveName": "Repair Orders",
-      "description": "When you attempt to repair an offline system or piece of the ship, roll +Explore. On a 10+, bring the system back online or repair 1 Harm. On a 7-9, also choose one:",
-      "holds": [
-        "The repair will take extra time",
-        "The repair will require exotic parts, jury-rigged adjustments, or another command officer’s time and expertise to complete",
-        "Two other systems (of your choice) will have to go offline in order to make the repairs"
-      ]
+      "moveName": "Armed and Ready",
+      "description": "While in an armed conflict your Open Fire roll, if it is a hit, is +1 Hold."
     }
   ],
-  "numOptionalMoves": 1,
+  "numOptionalMoves": 2,
   "optionalMoves": [
     {
       "moveName": "Genius",
