@@ -1,0 +1,10 @@
+main.page2 {
+  break-before: page;
+  width: 7.5in;
+  height: 10in;
+  border: thin solid black;
+}
+
+section.fluffBlock pre {
+  white-space: pre-wrap;
+}

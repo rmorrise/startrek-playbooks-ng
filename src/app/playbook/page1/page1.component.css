@@ -3,7 +3,7 @@ header.infoHeader {
   display: block;
   position: relative;
   width: 7.5in;
-  height: 0.97in;
+  height: 0.87in;
 }
 
 main {
@@ -17,7 +17,7 @@ figure.logo {
   right: 0rem;
   top: 0rem;
   width: 1.3in;
-  height: 0.97in;
+  height: 0.87in;
   font-size: x-large;
   margin: 0.1in;
 }
@@ -202,7 +202,7 @@ section.rightColumn section.flexSection {
 section.rightColumn section h2 {
   margin-top: 0rem;
   margin-bottom: 0.4rem;
-  font-size: large;
+  font-size: medium;
 }
 
 section.lookBlock label {

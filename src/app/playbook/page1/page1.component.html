@@ -32,7 +32,7 @@
 <main class="mainBlock">
   <section class="leftColumn">
     <section class="classBlock">
-      <h1>{{data.playbookName}}</h1>
+      <h1>The {{data.playbookName}}</h1>
     </section>
     <section class="statsMovesBlock">
       <header class="statsHeader">
@@ -123,7 +123,7 @@
         </ul>
       </section>
       <section class="flexSection specialMovesBlock">
-        <h2>{{data.playbookName}}'s Moves</h2>
+        <h2>The {{data.playbookName}}'s Moves</h2>
         <ng-container *ngIf="hasRequiredMoves">
           <div class="moveInstructions">You have <span *ngIf="!requiredMovesPlural">this move</span> <span
             *ngIf="requiredMovesPlural">these moves</span>:
