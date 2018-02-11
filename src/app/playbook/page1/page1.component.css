@@ -9,9 +9,11 @@ main {
   display: table;
   width: 10in;
   height: 7in;
-  clear: both;
 }
 
+/**
+ * Name header
+ */
 section.nameBlock label {
   display: inline-block;
   font-size: x-large;
@@ -20,19 +22,21 @@ section.nameBlock label {
 }
 
 section.nameBlock input {
-  display: inline-block;
+  /*display: inline-block;*/
   height: 2.4rem;
-  width: 9.2in;
+  width: 9in;
 }
 
+/**
+ * Main column layout
+ */
 section.leftColumn {
   display: table-cell;
   width: 12rem;
 }
 
 section.rightColumn {
-  display: flex;
-  flex-direction: column;
+  display: table-cell;
   height: 7.1in;
 }
 
@@ -45,6 +49,24 @@ section.classBlock h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+section.lookBlock {
+}
+
+section.lookBlock label {
+  float: left;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.lookBlock ul {
+  margin-left: 2rem;
+  font-size: x-small;
+}
+
+
 
 /**
  * Stats section
@@ -145,16 +167,10 @@ section.xpBlock input[type=checkbox] {
 /**
  * Moves section (right)
  */
-section.lookBlock {
-  flex: 0 1 2rem;
-}
-
-section.specialMovesBlock {
-  flex: 0 1 auto;
-}
-
-section.otherMovesBlock {
-  flex: 1 1 auto;
+section.rightColumn div.flexContainer {
+  display: flex;
+  flex-direction: column;
+  height: 7.1in;
 }
 
 section.rightColumn > section {
@@ -168,20 +184,6 @@ section.rightColumn section h2 {
   font-size: large;
 }
 
-section.lookBlock label {
-  float: left;
-  font-size: medium;
-  font-weight: bold;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-section.lookBlock ul {
-  margin-left: 2rem;
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-  font-size: x-small;
-}
 
 div.moveInstructions {
   margin-top: 0.5rem;
