@@ -18,19 +18,29 @@
       </ol>
       <section>
         <h3>Species</h3>
-        <p>Andorian, Axanari, Centauran, Human, Tellarite, Tiburonian, Vulcan... too many to list here.</p>
+        <p>Andorian, Axanari, Centauran, Human, Tellarite, Tiburonian, Vulcan... and many others.</p>
       </section>
       <section>
         <h3>Descriptor</h3>
+        <ul>
+          <li class="descriptor" *ngFor="let descriptor of data.descriptors">
+            <span class="descriptorName">{{descriptor.name}}</span>
+            <span class="statLine">
+            (<span class="stat">War {{descriptor.stats.war}},</span>
+              <span class="stat">Peace {{descriptor.stats.peace}},</span>
+              <span class="stat">Duty {{descriptor.stats.duty}},</span>
+              <span class="stat">Explore {{descriptor.stats.explore}},</span>
+              <span class="stat">Rank {{descriptor.stats.rank}}</span>)
+              </span>
+            <p>{{descriptor.advancement}}</p>
+          </li>
+        </ul>
       </section>
       <section>
         <h3>Look</h3>
       </section>
       <section>
         <h3>Moves</h3>
-      </section>
-      <section>
-        <h3>Improvement</h3>
       </section>
     </section>
   </section>

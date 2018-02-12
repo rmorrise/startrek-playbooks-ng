@@ -51,3 +51,21 @@ section.characterCreationBlock ol {
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
+
+section.characterCreationBlock span.descriptorName {
+  font-weight: bold;
+}
+
+section.characterCreationBlock span.statLine {
+  display: block;
+  margin-left: 1rem;
+}
+
+section.characterCreationBlock span.statLine span.stat {
+  display: inline-block;
+}
+
+section.characterCreationBlock li.descriptor p {
+  margin-top: 0.3rem;
+  font-style: italic;
+}
