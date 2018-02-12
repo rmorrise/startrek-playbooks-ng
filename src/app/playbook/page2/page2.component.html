@@ -7,6 +7,11 @@
     </section>
     <section class="characterCreationBlock">
       <h1>Creating a {{data.playbookName}}</h1>
+      <ol>
+        <li>Choose a Species</li>
+        <li>Choose a Name</li>
+        <li>Write down your Rank/Position</li>
+      </ol>
       <section>
         <h2>Name</h2>
       </section>
@@ -32,7 +37,6 @@
   </section>
   <section class="rightColumn">
     <aside class="standardMovesBlock">
-      <!--<h2>Standard Moves</h2>-->
       <st-move *ngFor="let standardMove of standardMoves.moves" [move]="standardMove" [selectable]="false"></st-move>
     </aside>
   </section>
