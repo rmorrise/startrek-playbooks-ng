@@ -53,5 +53,62 @@
       "moveName": "Ready For Command",
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
+  ],
+  "descriptors": [
+    {
+      "name": "Outsider",
+      "stats": {
+        "war": 0,
+        "peace": -1,
+        "duty": 1,
+        "explore": 2,
+        "rank": 1
+      },
+      "advancement": "If you revealed something new about yourself in the course of scientific investigation, mark experience."
+    },
+    {
+      "name": "Logical",
+      "stats": {
+        "war": -1,
+        "peace": 0,
+        "duty": 1,
+        "explore": 2,
+        "rank": 1
+      },
+      "advancement": "If you rejected emotion in order to advance scientific inquiry, mark experience."
+    },
+    {
+      "name": "Ancestral",
+      "stats": {
+        "war": 0,
+        "peace": 1,
+        "duty": 0,
+        "explore": 2,
+        "rank": 0
+      },
+      "advancement": "If you drew on experiences from a previous generation, mark experience."
+    },
+    {
+      "name": "Intrepid",
+      "stats": {
+        "war": 1,
+        "peace": -1,
+        "duty": 2,
+        "explore": 2,
+        "rank": -1
+      },
+      "advancement": "If you put yourself in danger to be at the forefront of a scientific discovery, mark experience."
+    },
+    {
+      "name": "Prodigy",
+      "stats": {
+        "war": 0,
+        "peace": 0,
+        "duty": 2,
+        "explore": 2,
+        "rank": -2
+      },
+      "advancement": "If you showed up someone much more experienced than you, mark experience."
+    }
   ]
 }

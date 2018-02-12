@@ -49,5 +49,62 @@
       "moveName": "Ready for Command",
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
+  ],
+  "descriptors": [
+    {
+      "name": "Warrior",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 1,
+        "explore": 0,
+        "rank": 1
+      },
+      "advancement": "If you found yourself in a situation that meant indeed, today is a good day to die, mark experience."
+    },
+    {
+      "name": "Logical",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 2,
+        "explore": -1,
+        "rank": 0
+      },
+      "advancement": "If you explored an alternative to violence in a violent situation, mark experience."
+    },
+    {
+      "name": "Down-Homey",
+      "stats": {
+        "war": 2,
+        "peace": 1,
+        "duty": 1,
+        "explore": -1,
+        "rank": 0
+      },
+      "advancement": "If you entered into a conflict so strange that it defied all of your experiences, mark experience."
+    },
+    {
+      "name": "Augmented",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 0,
+        "explore": 2,
+        "rank": -1
+      },
+      "advancement": "If your superior abilities in battle caused you to become alienated from others, mark experience."
+    },
+    {
+      "name": "Outsider",
+      "stats": {
+        "war": 2,
+        "peace": 0,
+        "duty": 1,
+        "explore": 1,
+        "rank": -1
+      },
+      "advancement": "If your reaction to a battle was handled in a completely alien way, mark experience."
+    }
   ]
 }
