@@ -34,5 +34,62 @@
       "moveName": "Ready for Command",
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
+  ],
+  "descriptors": [
+    {
+      "name": "Down-Homey",
+      "stats": {
+        "war": -1,
+        "peace": 2,
+        "duty": -1,
+        "explore": 2,
+        "rank": 0
+      },
+      "advancement": "If you pointed out that you’re a Doctor, and not something else, mark experience."
+    },
+    {
+      "name": "Maternal/Paternal",
+      "stats": {
+        "war": -1,
+        "peace": 2,
+        "duty": 1,
+        "explore": 1,
+        "rank": 0
+      },
+      "advancement": "If you put yourself in direct danger to help someone in need, mark experience."
+    },
+    {
+      "name": "Outsider",
+      "stats": {
+        "war": -1,
+        "peace": 2,
+        "duty": 0,
+        "explore": 2,
+        "rank": -1
+      },
+      "advancement": "If your bedside manner got you into trouble, mark experience."
+    },
+    {
+      "name": "Augmented",
+      "stats": {
+        "war": -1,
+        "peace": 2,
+        "duty": 0,
+        "explore": 2,
+        "rank": -1
+      },
+      "advancement": "If your augmented abilities caused friction with your colleagues, mark experience."
+    },
+    {
+      "name": "Open-Minded",
+      "stats": {
+        "war": 0,
+        "peace": 2,
+        "duty": 0,
+        "explore": 1,
+        "rank": 0
+      },
+      "advancement": "If you discovered a new insight in a species or custom that no one else appreciates, mark experience."
+    }
   ]
 }
