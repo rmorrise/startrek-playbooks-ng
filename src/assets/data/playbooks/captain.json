@@ -36,5 +36,62 @@
       "moveName": "You Have The Bridge",
       "description": "When you delegate command of the bridge to the senior officer in charge in order to go deal with a problem yourself, that officer has advantage forward on their next Issue Orders roll."
     }
+  ],
+  "descriptors": [
+    {
+      "name": "Career",
+      "stats": {
+        "war": 0,
+        "peace": 0,
+        "duty": 1,
+        "explore": 0,
+        "rank": 3
+      },
+      "advancement": "If you did something for the mission that forced you to improvise against your better judgment, mark experience."
+    },
+    {
+      "name": "Passionate",
+      "stats": {
+        "war": 1,
+        "peace": 1,
+        "duty": 0,
+        "explore": -1,
+        "rank": 3
+      },
+      "advancement": "If your willingness to take risks put you into a dangerous situation, mark experience."
+    },
+    {
+      "name": "Maternal/Paternal",
+      "stats": {
+        "war": -1,
+        "peace": 1,
+        "duty": 1,
+        "explore": 0,
+        "rank": 3
+      },
+      "advancement": "If you gave major advice or opportunity to a crewmember so they could improve, mark experience."
+    },
+    {
+      "name": "Diplomatic",
+      "stats": {
+        "war": -2,
+        "peace": 2,
+        "duty": 0,
+        "explore": 0,
+        "rank": 3
+      },
+      "advancement": "If you forge a significant agreement in the face of opposition, mark experience."
+    },
+    {
+      "name": "Hotshot",
+      "stats": {
+        "war": 1,
+        "peace": -1,
+        "duty": 1,
+        "explore": 0,
+        "rank": 3
+      },
+      "advancement": "If you successfully rejected a no-win scenario by changing the rules, mark experience."
+    }
   ]
 }
