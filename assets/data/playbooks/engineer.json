@@ -47,6 +47,63 @@
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
   ],
-  "quote": "\"Back home, we call him 'the miracle worker'.\"\n\t– Leonard H. McCoy, 1986 (Star Trek IV: The Voyage Home)",
-  "roleFluff": "On starships or starbases, the chief engineering officer (often shortened to chief engineer) is in charge of all engineers and engineering duties.\n\nThe chief engineer's duties range from making the duty shift roster for engineering personnel to advising the captain on possible solutions for certain technical problems. In general the chief engineer is an officer with enough experience in his or her own field of expertise and with seniority over the rest of the engineers. A chief engineer is also a member of the senior staff and accountable for the overall performance of the vessel.\n\nIn the context of engineering, the chief engineer may be seen giving orders to persons who would ordinarily outrank him in other contexts, e.g., the second officer. For example, Data regularly takes orders from Geordi La Forge in engineering contexts, even though as the second officer Data outranks Geordi in absolute terms. (TNG)\n\t-Memory Alpha Wiki"
+  "descriptors": [
+    {
+      "name": "Warrior",
+      "stats": {
+        "war": 1,
+        "peace": -1,
+        "duty": 0,
+        "explore": 2,
+        "rank": 1
+      },
+      "advancement": "If the heat of battle drove an engineering decision, mark experience."
+    },
+    {
+      "name": "Career",
+      "stats": {
+        "war": -1,
+        "peace": 0,
+        "duty": 1,
+        "explore": 2,
+        "rank": 1
+      },
+      "advancement": "If you were forced into a non-Engineering role in a way that mattered, mark experience."
+    },
+    {
+      "name": "Intrepid",
+      "stats": {
+        "war": -1,
+        "peace": -1,
+        "duty": 2,
+        "explore": 2,
+        "rank": 0
+      },
+      "advancement": "If an engineering solution came into conflict with normal protocol, mark experience."
+    },
+    {
+      "name": "Down-Homey",
+      "stats": {
+        "war": 0,
+        "peace": 0,
+        "duty": 1,
+        "explore": 2,
+        "rank": 0
+      },
+      "advancement": "If you used a simplistic analogy to solve a complex engineering problem, mark experience."
+    },
+    {
+      "name": "Passionate",
+      "stats": {
+        "war": 1,
+        "peace": -1,
+        "duty": 1,
+        "explore": 2,
+        "rank": 0
+      },
+      "advancement": "If you let your emotions get the best of you in a charged situation, mark experience."
+    }
+  ],
+  "quote": "\"Back home, we call him 'the miracle worker'.\"\n\t– Leonard H. McCoy, 1986\n\t(Star Trek IV: The Voyage Home)",
+  "roleFluff": "On starships or starbases, the chief engineering officer (often shortened to chief engineer) is in charge of all engineers and engineering duties.\n\nThe chief engineer's duties range from making the duty shift roster for engineering personnel to advising the captain on possible solutions for certain technical problems. In general the chief engineer is an officer with enough experience in his or her own field of expertise and with seniority over the rest of the engineers. A chief engineer is also a member of the senior staff and accountable for the overall performance of the vessel.\n\t-Memory Alpha Wiki"
 }

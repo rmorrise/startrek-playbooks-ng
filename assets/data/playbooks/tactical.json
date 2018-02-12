@@ -49,5 +49,64 @@
       "moveName": "Ready for Command",
       "description": "May only be taken as an advancement. You are +1 Rank (maximum +3)."
     }
-  ]
+  ],
+  "descriptors": [
+    {
+      "name": "Warrior",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 1,
+        "explore": 0,
+        "rank": 1
+      },
+      "advancement": "If you found yourself in a situation that meant indeed, today is a good day to die, mark experience."
+    },
+    {
+      "name": "Logical",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 2,
+        "explore": -1,
+        "rank": 0
+      },
+      "advancement": "If you explored an alternative to violence in a violent situation, mark experience."
+    },
+    {
+      "name": "Down-Homey",
+      "stats": {
+        "war": 2,
+        "peace": 1,
+        "duty": 1,
+        "explore": -1,
+        "rank": 0
+      },
+      "advancement": "If you entered into a conflict so strange that it defied all of your experiences, mark experience."
+    },
+    {
+      "name": "Augmented",
+      "stats": {
+        "war": 2,
+        "peace": -1,
+        "duty": 0,
+        "explore": 2,
+        "rank": -1
+      },
+      "advancement": "If your superior abilities in battle caused you to become alienated from others, mark experience."
+    },
+    {
+      "name": "Outsider",
+      "stats": {
+        "war": 2,
+        "peace": 0,
+        "duty": 1,
+        "explore": 1,
+        "rank": -1
+      },
+      "advancement": "If your reaction to a battle was handled in a completely alien way, mark experience."
+    }
+  ],
+  "quote": "\"You look for battles in the wrong place. The true test of a warrior is not without, it is within.\"\n\t-Lt. Worf",
+  "roleFluff": "The tactical officer, tactics officer or tactical aide was an officer stationed at the tactical station and was responsible controlling a starship's weaponry and shields.... (TNG: \"Redemption\"; Star Trek III: The Search for Spock)\n\nOn Starfleet vessels, the tactical officers job was to maintain weapon and shield readiness along with executing firing solutions. These solutions could range from a low intensity phaser beam or to plot a torpedo firing pattern. Security chiefs frequently doubled as tactical officers, though the two roles were not required to be filled by the same person. (TNG: \"Pen Pals\", \"Masks\")\n\t-Memory Alpha Wiki"
 }

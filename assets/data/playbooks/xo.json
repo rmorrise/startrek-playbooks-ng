@@ -37,5 +37,53 @@
       "moveName": "A Lover On Every Planet",
       "description": "When on an away mission, roll +Rank. On a 10+, one of the inhabitants becomes infatuated with you. On a 7-9, someone with history with you is entangled with the away mission but might also prove useful. On a miss, a past entanglement causes complications."
     }
-  ]
+  ],
+  "descriptors": [
+    {
+      "name": "Career",
+      "stats": {
+        "war": 0,
+        "peace": 0,
+        "duty": 2,
+        "explore": -1,
+        "rank": 2
+      },
+      "advancement": "If you were forced out of your comfort zone for the sake of the mission, mark experience."
+    },
+    {
+      "name": "Spiritual",
+      "stats": {
+        "war": 0,
+        "peace": 1,
+        "duty": 2,
+        "explore": -1,
+        "rank": 1
+      },
+      "advancement": "If your faith or beliefs were challenged by the mission, mark experience."
+    },
+    {
+      "name": "Logical",
+      "stats": {
+        "war": -1,
+        "peace": 0,
+        "duty": 2,
+        "explore": 1,
+        "rank": 1
+      },
+      "advancement": "If you leveraged someone else’s emotions in order to succeed, mark experience."
+    },
+    {
+      "name": "Hotshot",
+      "stats": {
+        "war": 1,
+        "peace": -1,
+        "duty": 2,
+        "explore": 0,
+        "rank": 1
+      },
+      "advancement": "If you refused to play it safe against another’s orders, mark experience."
+    }
+  ],
+  "quote": "\"Captain, as your exec, it's my duty to point out alternatives.\"\n\t-Will Decker to James T. Kirk, 2270s\n\t(Star Trek: The Motion Picture)",
+  "roleFluff": "Aboard a starship the first officer was the second-in-command, just below the captain. On a Federation starship, the first officer had the following functions:\n\t-[Serving] as the principal adviser to the captain\n\t-Implementing the captain's orders\n\t-Preparing and issuing duty rosters.... (VOY: \"The Gift\", \"Tsunkatse\", \"Endgame\")\n\t-Managing the ship's resources, including systems allocation (TNG: \"Lessons\")\n\t-Commanding the vessel in the event of the captain's absence, incapacitation or death (VOY: \"Night\", \"Before and After\"; TNG: \"The Battle\", \"The Best of Both Worlds\", \"The Best of Both Worlds, Part II\", \"Tapestry\", \"Gambit, Part I\")\n\t-Working with the chief medical officer or counselor on crew evaluations (TNG: \"Man of the People\", \"Lower Decks\")\n\t-Attending important meetings and briefings with the captain (Star Trek Into Darkness)\n\t\t\t-Memory Alpha Wiki"
 }
