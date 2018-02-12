@@ -6,4 +6,5 @@ export interface PlaybookData {
   numOptionalMoves: number
   optionalMoves: Move[]
   roleFluff: string
+  quote: string
 }

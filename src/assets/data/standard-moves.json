@@ -1,0 +1,62 @@
+{
+  "moves": [
+    {
+      "moveName": "Open Fire!",
+      "stat": "War",
+      "description": "When you use force to attempt to damage, capture, or disable another creature or ship, roll +War. On a 10+, choose two options. On a 7-9, choose one.",
+      "holds": [
+        "You suffer little harm",
+        "You inflict terrible harm",
+        "You rattle, stun or disable a system of your target",
+        "You take definite hold of what you want"
+      ]
+    },
+    {
+      "moveName": "Open a Channel",
+      "stat": "Peace",
+      "description": "When you make contact in an attempt to discuss, negotiate, or come to terms, roll +Peace. On 10+, hold 3. On a 7-9, hold 2. While you’re interacting with them, spend the holds to ask questions.",
+      "holds": [
+        "Is your character hiding something?",
+        "What are your character’s cultural differences with mine?",
+        "What does your character intend to do?",
+        "What does your character wish I would do?",
+        "How can I get your character to ______?",
+        "How can I avoid offending/upsetting/annoying your character?"
+      ]
+    },
+    {
+      "moveName": "Go Boldly",
+      "stat": "Duty",
+      "description": "When you need to react or perform in a difficult situation, relying on your training and reaction time, roll +Duty. On a 10+, you do it. On a 7-9, you flinch, hesitate, or stall: you will be offered a worse outcome, hard bargain, an ugly choice."
+    },
+    {
+      "moveName": "Issue Orders",
+      "stat": "Rank",
+      "description": "When you issue orders to a character who falls under your chain of command to perform a task on your behalf, roll +Rank. If it is an NPC, on a 10+ they follow your orders to the best of their ability. You may reproduce another move this way, but the best they can do is the 7-9 result. On a 7-9, in addition to the effect happening, the GM chooses one:",
+      "holds": [
+        "They require something in exchange, like concrete reassurance of safety or promise of recognition.",
+        "You reflect poorly on the crew: take Disadvantage Forward on your next Issue Orders.",
+        "They panic, choke, or otherwise don’t do the job entirely as expected."
+      ],
+      "afterText": "If you issue orders to another PC in a difficult situation who falls under your chain of command, on a 10+, the crewmember takes Advantage Forward on their roll if they choose to follow the order. On a 7-9, the crewmember can follow the order with no bonus, or disobey the order and mark experience.\n\nIn either case, on a 6-, the order was the wrong call, and you both suffer the repercussions."
+    },
+    {
+      "moveName": "Spout Technobabble",
+      "stat": "Explore",
+      "description": "When you use your expertise to speak out about a scientific principle at work or recall information from a database, roll +Explore. On a 10+, the GM will tell you about it. (You can name the phenomena, if applicable.) On a 7-9, the GM will only tell you something interesting about it, it’s on you to make it useful."
+    },
+    {
+      "moveName": "Perform a Scan",
+      "stat": "Explore",
+      "description": "When you perform a scan, choose wide band or narrow band and roll +Explore. On a 10+, hold 2. On a 7-9, hold 1. As long as you can interpret the data, spend hold to ask any of the following questions.",
+      "holds": [
+        "What are the properties of this area?",
+        "What are the immediate dangers?",
+        "What here is useful to me?",
+        "What kind of lifesigns are present?",
+        "What just happened here?",
+        "What should I be on the lookout for?"
+      ]
+    }
+  ]
+}

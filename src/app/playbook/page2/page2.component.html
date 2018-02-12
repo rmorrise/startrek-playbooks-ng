@@ -1,12 +1,14 @@
 <main class="page2">
   <section class="fluffBlock">
     <h2>The {{data.playbookName}}</h2>
+    <pre class="quote">{{data.quote}}</pre>
     <pre>{{data.roleFluff}}</pre>
   </section>
   <aside class="standardMovesBlock">
     <h2>Standard Moves</h2>
+    <st-move *ngFor="let standardMove of standardMoves.moves" [move]="standardMove" [selectable]="false"></st-move>
   </aside>
-  <aside>
+  <aside class="characterCreationBlock">
     <h1>Creating a {{data.playbookName}}</h1>
     <section>
       <h2>Name</h2>

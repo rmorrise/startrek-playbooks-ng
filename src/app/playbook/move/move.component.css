@@ -1,15 +1,24 @@
 section.move {
   position: relative;
-  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+section.move div.checkboxCol {
+  flex: 0 0 1.5rem;
 }
 
 section.move input[type=checkbox] {
   display: block;
   position: absolute;
   top: 0rem;
-  left: -2rem;
+  left: -0.5rem;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+section.move div.moveDescription {
+  flex: 1 1 auto;
 }
 
 section.move h3 {

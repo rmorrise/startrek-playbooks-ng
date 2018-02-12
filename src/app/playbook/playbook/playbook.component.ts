@@ -5,6 +5,7 @@ import {PlaybookData} from '../model/playbookData';
 import 'rxjs/add/observable/empty';
 import {ActivatedRoute, ParamMap} from '@angular/router';
 import {switchMap} from 'rxjs/operators';
+import {StandardMoves} from '../model/standardMoves';
 
 @Component({
   selector: 'st-playbook',
@@ -13,6 +14,7 @@ import {switchMap} from 'rxjs/operators';
 })
 export class PlaybookComponent implements OnInit {
   $playbookData: Observable<PlaybookData>;
+  $standardMoves: Observable<StandardMoves>;
 
   constructor(private route: ActivatedRoute,
               private dataService: DataService) {
@@ -22,5 +24,6 @@ export class PlaybookComponent implements OnInit {
     this.$playbookData = this.route.paramMap.pipe(switchMap((params: ParamMap) => {
       return this.dataService.getPlaybookData(params.get('file'))
     }));
+    this.$standardMoves = this.dataService.getStandardMoves()
   }
 }

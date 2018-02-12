@@ -3,8 +3,17 @@ main.page2 {
   width: 7.5in;
   height: 10in;
   border: thin solid black;
+  padding: 0.25in;
 }
 
 section.fluffBlock pre {
   white-space: pre-wrap;
+}
+
+section.fluffBlock pre.quote {
+  margin-left: 2rem;
+}
+
+aside.standardMovesBlock {
+
 }

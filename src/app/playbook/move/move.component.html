@@ -1,10 +1,15 @@
 <section class="move">
-  <input type="checkbox" [checked]="selected">
-  <h3 class="moveName">{{move.moveName}}</h3>
-  <div class="moveText">
-    {{move.description}}
-    <ul class="moveHolds" *ngIf="move.holds">
-      <li *ngFor="let hold of move.holds">{{hold}}</li>
-    </ul>
+  <div class="checkboxCol" *ngIf="selectable">
+    <input type="checkbox" [checked]="selected">
+  </div>
+  <div class="moveDescription">
+    <h3 class="moveName">{{move.moveName}}</h3>
+    <div class="moveText">
+      {{move.description}}
+      <ul class="moveHolds" *ngIf="move.holds">
+        <li *ngFor="let hold of move.holds">{{hold}}</li>
+      </ul>
+      {{move.afterText}}
+    </div>
   </div>
 </section>

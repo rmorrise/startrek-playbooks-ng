@@ -9,6 +9,7 @@ import {Move} from '../model/move';
 export class MoveComponent implements OnInit {
   @Input('move') move: Move
   @Input('selected') selected: boolean = false
+  @Input('selectable') selectable: boolean = true
 
   constructor() { }
 

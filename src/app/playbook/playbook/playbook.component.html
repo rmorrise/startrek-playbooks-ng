@@ -1,4 +1,4 @@
 <ng-container *ngIf="$playbookData | async">
   <st-page1 [playbook-data]="$playbookData | async"></st-page1>
-  <st-page2 [playbook-data]="$playbookData | async"></st-page2>
+  <st-page2 [playbook-data]="$playbookData | async" [standard-moves]="$standardMoves | async"></st-page2>
 </ng-container>
