@@ -15,7 +15,7 @@ export class IndexComponent implements OnInit {
     {name: 'The Captain', file: 'captain'},
     {name: 'The XO', file: 'xo'},
     {name: 'The Chief Engineer', file: 'engineer'},
-    {name: 'Tactical Officer', file: 'tactical'},
+    {name: 'The Tactical Officer', file: 'tactical'},
     {name: 'The Chief Medic', file: 'medic'},
     {name: 'The Operations Officer', file: 'operations'},
     {name: 'The Science Officer', file: 'science'}
