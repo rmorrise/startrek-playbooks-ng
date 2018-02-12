@@ -2,18 +2,43 @@ main.page2 {
   break-before: page;
   width: 7.5in;
   height: 10in;
-  border: thin solid black;
-  padding: 0.25in;
+  border: thin dashed lightgray;
+  padding: 0.1in;
+  display: flex;
+  flex-direction: row;
+}
+
+section.leftColumn {
+  flex: 1 0 3.5in;
+  padding-right: 0.1in;
+  border-right: thin solid black;
+}
+
+section.rightColumn {
+  flex: 0 0 3.8in;
+  padding-left: 0.1in;
+}
+
+section h2 {
+  margin-top: 0rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.2rem;
+  font-size: medium;
+}
+
+aside h2 {
+  margin-top: 0rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.2rem;
+  font-size: medium;
 }
 
 section.fluffBlock pre {
   white-space: pre-wrap;
+  tab-size: 4;
 }
 
 section.fluffBlock pre.quote {
-  margin-left: 2rem;
-}
-
-aside.standardMovesBlock {
-
+  margin-left: 0.5rem;
+  font-style: italic;
 }
