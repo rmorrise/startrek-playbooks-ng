@@ -42,3 +42,12 @@ section.fluffBlock pre.quote {
   margin-left: 0.5rem;
   font-style: italic;
 }
+
+section.characterCreationBlock {
+  font-size: small;
+}
+
+section.characterCreationBlock ol {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
