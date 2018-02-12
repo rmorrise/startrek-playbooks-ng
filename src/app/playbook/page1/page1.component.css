@@ -173,6 +173,10 @@ section.xpBlock input[type=checkbox] {
   height: 1.6rem;
 }
 
+section.advancementBlock label {
+  font-weight: bold;
+}
+
 /**
  * Moves section (right)
  */
