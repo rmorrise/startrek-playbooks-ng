@@ -60,5 +60,62 @@
       "moveName": "Cross-Training",
       "description": "Take a move from an unused playbook."
     }
+  ],
+  "descriptors": [
+    {
+      "name": "Outsider",
+      "stats": {
+        "war": -1,
+        "peace": -2,
+        "duty": 2,
+        "explore": 2,
+        "rank": 1
+      },
+      "advancement": "If your outsider status causes you to act strangely in an important situation, mark experience."
+    },
+    {
+      "name": "Inexperienced",
+      "stats": {
+        "war": 1,
+        "peace": 0,
+        "duty": 2,
+        "explore": 1,
+        "rank": -1
+      },
+      "advancement": "If you found yourself unable to coordinate a complex situation, mark experience."
+    },
+    {
+      "name": "Enlisted",
+      "stats": {
+        "war": 1,
+        "peace": 1,
+        "duty": 2,
+        "explore": 1,
+        "rank": -1
+      },
+      "advancement": "If your plans were challenged by those who didn’t take you seriously, mark experience."
+    },
+    {
+      "name": "Spiritual",
+      "stats": {
+        "war": 0,
+        "peace": 1,
+        "duty": 2,
+        "explore": 0,
+        "rank": 0
+      },
+      "advancement": "If your faith guided you in a morally questionable situation, mark experience."
+    },
+    {
+      "name": "Revolutionary",
+      "stats": {
+        "war": 1,
+        "peace": 0,
+        "duty": 2,
+        "explore": 0,
+        "rank": 0
+      },
+      "advancement": "If you used your position to right old wrongs, mark experience."
+    }
   ]
 }
