@@ -8,7 +8,8 @@
     <section class="characterCreationBlock">
       <h2>Creating a {{data.playbookName}}</h2>
       <ol>
-        <li>Choose a Species</li>
+        <li>Choose a Species
+          (Andorian, Axanari, Centauran, Human, Tellarite, Tiburonian, Vulcan... and many others.)</li>
         <li>Choose a Name</li>
         <li>Choose a Descriptor</li>
         <li>Write down your Stats</li>
@@ -17,12 +18,8 @@
         <li>Choose your {{data.playbookName}}'s Moves</li>
       </ol>
       <section>
-        <h3>Species</h3>
-        <p>Andorian, Axanari, Centauran, Human, Tellarite, Tiburonian, Vulcan... and many others.</p>
-      </section>
-      <section>
         <h3>Descriptor</h3>
-        <ul>
+        <ul class="descriptorList">
           <li class="descriptor" *ngFor="let descriptor of data.descriptors">
             <span class="descriptorName">{{descriptor.name}}</span>
             <span class="statLine">
@@ -35,9 +32,6 @@
             <p>{{descriptor.advancement}}</p>
           </li>
         </ul>
-      </section>
-      <section>
-        <h3>Look</h3>
       </section>
     </section>
   </section>

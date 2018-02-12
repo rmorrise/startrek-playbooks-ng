@@ -52,13 +52,18 @@ section.characterCreationBlock ol {
   margin-bottom: 0.1rem;
 }
 
+section.characterCreationBlock ul.descriptorList {
+  margin-left: 0rem;
+  padding-left: 1rem;
+}
+
 section.characterCreationBlock span.descriptorName {
   font-weight: bold;
 }
 
 section.characterCreationBlock span.statLine {
   display: block;
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 section.characterCreationBlock span.statLine span.stat {
